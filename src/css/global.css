@@ -1,0 +1,25 @@
+@font-face {
+    font-family: isidoraLight;
+    src: url("../assets/fonts/IsidoraSansAltLight.otf");
+}
+@font-face {
+    font-family: isidoraBold;
+    src: url("../assets/fonts/IsidoraSansAltBold.otf");
+}
+
+body {
+    background-color: rgb(11, 19, 30);
+    color: white;
+    font-family: isidoraLight;
+}
+.isidoraBold {
+    font-family: isidoraBold;
+}
+
+.dark {
+    --mainBg: 11, 19, 30;
+    --secMainBg: 32, 43, 59;
+}
+.navBar {
+    scrollbar-width: none;
+}
